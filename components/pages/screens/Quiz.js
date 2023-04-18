@@ -11,7 +11,7 @@ import {
   import {englishData} from './EnglishQuestions';
   import QuestionItem from './QuestionItem';
   const {height, width} = Dimensions.get('window');
-  const Quez = () => {
+  const Quiz = () => {
     const [currentIndex, setCurrentIndex] = useState(1);
     const [questions, setQuestions] = useState(englishData);
     const listRef = useRef();
@@ -243,4 +243,4 @@ import {
     );
   };
   
-  export default Quez;
+  export default Quiz;
